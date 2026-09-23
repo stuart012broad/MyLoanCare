@@ -1,0 +1,58 @@
+.receipt {
+  padding: 22px;
+  position: sticky;
+  top: 20px;
+}
+
+.receipt-top {
+  display: flex;
+  justify-content: space-between;
+  color: #6c7586;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+}
+
+.receipt h2 {
+  margin: 22px 0;
+}
+
+.receipt-lines {
+  display: grid;
+  gap: 12px;
+}
+
+.receipt-line,
+.receipt-total {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.receipt-line {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #edf0f5;
+  font-size: 14px;
+}
+
+.receipt-total {
+  margin-top: 18px;
+  padding-top: 15px;
+  border-top: 2px solid #172033;
+  font-size: 17px;
+}
+
+.receipt-muted {
+  color: #6c7586;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.receipt-disclaimer {
+  margin: 24px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid #edf0f5;
+  color: #7a8290;
+  font-size: 11px;
+  line-height: 1.5;
+}

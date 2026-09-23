@@ -1,0 +1,72 @@
+.list-section {
+  margin-top: 24px;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.section-heading span {
+  color: #6c7586;
+  font-size: 13px;
+}
+
+.empty {
+  padding: 28px;
+  text-align: center;
+  border: 1px dashed #cbd2df;
+  border-radius: 12px;
+  color: #6c7586;
+  background: #fff;
+}
+
+.expense-list {
+  display: grid;
+  gap: 10px;
+}
+
+.expense-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 16px 18px;
+  border: 1px solid #e4e8f0;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.expense-item span {
+  display: block;
+  margin-top: 5px;
+  color: #6c7586;
+  font-size: 13px;
+}
+
+.expense-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.expense-actions button {
+  border: 0;
+  background: transparent;
+  color: #b42318;
+  cursor: pointer;
+}
+
+@media (max-width: 560px) {
+  .expense-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
